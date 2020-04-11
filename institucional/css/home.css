@@ -1,0 +1,53 @@
+.content-img{
+    background: url('https://cdn.pixabay.com/photo/2015/07/27/20/23/couple-863456_960_720.jpg');
+    background-position-y:480%;
+    background-size: cover;
+    padding: 4%;
+    padding-top: 8%;
+    background-attachment: fixed;
+    opacity: 0.4;
+    height: 220px;
+}
+.header-content{
+    background: #368299;
+}
+.white-box{
+    transform: rotate(30deg);
+    background: #FFF;
+    height: 50%;
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left: -20%;
+}
+.text-content{
+    margin: 40px 80px;
+    position: relative;
+}
+.text-content h2{
+    margin-left: 10px;
+    color: #071418;
+}
+.text-content p{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: #4d4d4d;
+}
+@media screen and (max-width: 1000px){
+    .content-img{
+        visibility: hidden;
+        height: 0;
+    }
+    .header-content{
+        visibility: hidden;
+        height: 0;
+    }
+    .white-box{
+        visibility: hidden;
+        height: 0;
+    }
+    .text-content{
+        margin-top: 45%;    
+    } 
+}   
